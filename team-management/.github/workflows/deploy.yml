@@ -4,8 +4,8 @@ on:
   push:
     branches: [main]
     paths:
-      - 'app/**'
-      - '.github/workflows/deploy.yml'
+      - 'team-management/app/**'
+      - 'team-management/.github/workflows/deploy.yml'
   workflow_dispatch:
 
 permissions:
@@ -27,17 +27,17 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
-          cache-dependency-path: app/package-lock.json
+          cache-dependency-path: team-management/app/package-lock.json
 
       - name: Install dependencies
-        working-directory: app
+        working-directory: team-management/app
         run: npm ci
 
       - name: Build
-        working-directory: app
+        working-directory: team-management/app
         run: npm run build
         env:
-          VITE_API_BASE: /api
+          VITE_API_BASE: https://team-management-api.onrender.com
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -45,7 +45,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: app/dist
+          path: team-management/app/dist
 
   deploy:
     needs: build
