@@ -2,6 +2,11 @@
 *
 !.gitignore
 
+# Allow GitHub Actions workflows at repo root
+!.github/
+!.github/**
+!.github/**/*
+
 # Allow team-management (but not unwanted files)
 !team-management/
 !team-management/**/*
