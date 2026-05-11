@@ -1,0 +1,19 @@
+# Everything outside team-management is workspace config, ignore it
+*
+!.gitignore
+
+# Allow team-management (but not unwanted files)
+!team-management/
+!team-management/**/*
+!team-management/**/**/*
+
+# Then re-exclude unwanted files
+team-management/**/node_modules
+team-management/**/node_modules/**
+team-management/app/dist
+team-management/app/dist/**
+team-management/**/*.exp
+team-management/deploy/dist.tar.gz
+team-management/DEPLOY.md
+team-management/start.sh
+team-management/app/index.html''

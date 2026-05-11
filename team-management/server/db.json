@@ -1,0 +1,1022 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "username": "admin",
+      "password": "admin123",
+      "name": "张明",
+      "role": "admin",
+      "avatar": "张",
+      "department": "技术部",
+      "phone": "138-0001-0001",
+      "email": "zhangming@team.com",
+      "joinDate": "2024-03-15",
+      "status": "active"
+    },
+    {
+      "id": "u2",
+      "username": "viewer",
+      "password": "view123",
+      "name": "李婷",
+      "role": "viewer",
+      "avatar": "李",
+      "department": "技术部",
+      "phone": "138-0002-0002",
+      "email": "liting@team.com",
+      "joinDate": "2024-06-01",
+      "status": "active"
+    },
+    {
+      "id": "u3",
+      "username": "zhaoxue",
+      "password": "123456",
+      "name": "赵雪",
+      "role": "viewer",
+      "avatar": "赵",
+      "department": "设计部",
+      "phone": "138-0003-0003",
+      "email": "zhaoxue@team.com",
+      "joinDate": "2025-01-10",
+      "status": "active"
+    },
+    {
+      "id": "u4",
+      "username": "wangqiang",
+      "password": "123456",
+      "name": "王强",
+      "role": "admin",
+      "avatar": "王",
+      "department": "技术部",
+      "phone": "138-0004-0004",
+      "email": "wangqiang@team.com",
+      "joinDate": "2023-09-20",
+      "status": "active"
+    },
+    {
+      "id": "u5",
+      "username": "chenlei",
+      "password": "123456",
+      "name": "陈磊",
+      "role": "viewer",
+      "avatar": "陈",
+      "department": "测试部",
+      "phone": "138-0005-0005",
+      "email": "chenlei@team.com",
+      "joinDate": "2025-03-01",
+      "status": "active"
+    }
+  ],
+  "sops": [
+    {
+      "id": "sop-1",
+      "title": "新成员入职流程",
+      "category": "人事流程",
+      "owner": "张明",
+      "status": "active",
+      "version": "v2.2",
+      "updatedAt": "2026-05-07",
+      "content": "1. 准备工位和设备\n2. 发送欢迎邮件\n3. 安排入职培训\n4. 分配导师\n5. 完成入职检查清单",
+      "attachments": [
+        {
+          "id": "att-1778168803701-0",
+          "name": "片区周例会制度.docx",
+          "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "size": 13957,
+          "data": "data:application/vnd.openxmlformats-officedocument.wordprocessingml.document;base64,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",
+          "uploadedAt": "2026-05-07",
+          "uploadedBy": "张明"
+        }
+      ]
+    },
+    {
+      "id": "sop-2",
+      "title": "代码审查流程",
+      "category": "开发规范",
+      "owner": "王强",
+      "status": "active",
+      "version": "v1.5",
+      "updatedAt": "2026-03-20",
+      "content": "1. 创建PR\n2. 至少一名审核人批准\n3. 通过CI/CD检查\n4. 解决所有评论\n5. 合并到主分支",
+      "attachments": []
+    },
+    {
+      "id": "sop-3",
+      "title": "客户支持响应流程",
+      "category": "客户服务",
+      "owner": "李婷",
+      "status": "draft",
+      "version": "v0.8",
+      "updatedAt": "2026-04-28",
+      "content": "1. 接收客户工单\n2. 分类优先级\n3. 24小时内首次响应\n4. 解决问题或升级\n5. 后续跟进",
+      "attachments": []
+    },
+    {
+      "id": "sop-4",
+      "title": "发布上线流程",
+      "category": "运维规范",
+      "owner": "王强",
+      "status": "active",
+      "version": "v3.0",
+      "updatedAt": "2026-02-10",
+      "content": "1. 代码冻结\n2. 预发布环境验证\n3. 备份当前版本\n4. 执行上线\n5. 线上验证\n6. 监控告警检查",
+      "attachments": []
+    }
+  ],
+  "sopVersions": [
+    {
+      "id": "sv-1",
+      "sopId": "sop-1",
+      "version": "v2.1",
+      "title": "新成员入职流程",
+      "category": "人事流程",
+      "content": "1. 准备工位和设备\n2. 发送欢迎邮件\n3. 安排入职培训\n4. 分配导师\n5. 完成入职检查清单",
+      "attachments": [],
+      "status": "active",
+      "updatedBy": "张明",
+      "updatedAt": "2026-04-15",
+      "changeType": "minor",
+      "changeNote": "初始版本快照"
+    },
+    {
+      "id": "sv-2",
+      "sopId": "sop-2",
+      "version": "v1.5",
+      "title": "代码审查流程",
+      "category": "开发规范",
+      "content": "1. 创建PR\n2. 至少一名审核人批准\n3. 通过CI/CD检查\n4. 解决所有评论\n5. 合并到主分支",
+      "attachments": [],
+      "status": "active",
+      "updatedBy": "王强",
+      "updatedAt": "2026-03-20",
+      "changeType": "minor",
+      "changeNote": "初始版本快照"
+    },
+    {
+      "id": "sv-3",
+      "sopId": "sop-3",
+      "version": "v0.8",
+      "title": "客户支持响应流程",
+      "category": "客户服务",
+      "content": "1. 接收客户工单\n2. 分类优先级\n3. 24小时内首次响应\n4. 解决问题或升级\n5. 后续跟进",
+      "attachments": [],
+      "status": "draft",
+      "updatedBy": "李婷",
+      "updatedAt": "2026-04-28",
+      "changeType": "minor",
+      "changeNote": "初始版本快照"
+    },
+    {
+      "id": "sv-4",
+      "sopId": "sop-4",
+      "version": "v3.0",
+      "title": "发布上线流程",
+      "category": "运维规范",
+      "content": "1. 代码冻结\n2. 预发布环境验证\n3. 备份当前版本\n4. 执行上线\n5. 线上验证\n6. 监控告警检查",
+      "attachments": [],
+      "status": "active",
+      "updatedBy": "王强",
+      "updatedAt": "2026-02-10",
+      "changeType": "major",
+      "changeNote": "初始版本快照"
+    },
+    {
+      "sopId": "sop-1",
+      "version": "v2.1",
+      "title": "新成员入职流程",
+      "category": "人事流程",
+      "content": "1. 准备工位和设备\n2. 发送欢迎邮件\n3. 安排入职培训\n4. 分配导师\n5. 完成入职检查清单",
+      "attachments": [],
+      "status": "active",
+      "updatedBy": "张明",
+      "updatedAt": "2026-05-07",
+      "changeType": "minor",
+      "changeNote": "更新流程图",
+      "id": "PUjmd5Q"
+    },
+    {
+      "sopId": "sop-1",
+      "version": "v2.1",
+      "title": "新成员入职流程",
+      "category": "人事流程",
+      "content": "1. 准备工位和设备\n2. 发送欢迎邮件\n3. 安排入职培训\n4. 分配导师\n5. 完成入职检查清单",
+      "attachments": [],
+      "status": "active",
+      "updatedBy": "张明",
+      "updatedAt": "2026-05-07",
+      "changeType": "minor",
+      "changeNote": "更新流程图",
+      "id": "d8v2V-L"
+    }
+  ],
+  "policies": [
+    {
+      "id": "pol-1",
+      "title": "远程办公管理制度",
+      "category": "行政管理",
+      "department": "人力资源部",
+      "effectiveDate": "2026-01-01",
+      "status": "active",
+      "summary": "规范远程办公的申请、执行和考核标准，保障远程办公效率与团队协作质量。"
+    },
+    {
+      "id": "pol-2",
+      "title": "信息安全管理办法",
+      "category": "信息安全",
+      "department": "技术部",
+      "effectiveDate": "2026-02-01",
+      "status": "active",
+      "summary": "明确信息安全管理职责，规范信息处理行为，防止信息泄露、丢失和损坏。"
+    },
+    {
+      "id": "pol-3",
+      "title": "代码提交规范",
+      "category": "开发规范",
+      "department": "技术部",
+      "effectiveDate": "2025-11-01",
+      "status": "active",
+      "summary": "统一代码提交信息格式，规范分支管理策略，提高代码协作效率。"
+    },
+    {
+      "id": "pol-4",
+      "title": "报销管理制度",
+      "category": "财务管理",
+      "department": "财务部",
+      "effectiveDate": "2025-06-01",
+      "status": "expired",
+      "summary": "规范费用报销流程，明确报销标准和审批权限。"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-1",
+      "title": "完成用户管理模块开发",
+      "assignee": "李婷",
+      "priority": "high",
+      "status": "in_progress",
+      "dueDate": "2026-05-10",
+      "tags": [
+        "前端",
+        "用户模块"
+      ]
+    },
+    {
+      "id": "task-2",
+      "title": "API接口压力测试",
+      "assignee": "王强",
+      "priority": "medium",
+      "status": "todo",
+      "dueDate": "2026-05-15",
+      "tags": [
+        "后端",
+        "测试"
+      ]
+    },
+    {
+      "id": "task-3",
+      "title": "设计系统V3改版",
+      "assignee": "赵雪",
+      "priority": "high",
+      "status": "review",
+      "dueDate": "2026-05-08",
+      "tags": [
+        "设计",
+        "V3"
+      ]
+    },
+    {
+      "id": "task-4",
+      "title": "Q2测试用例编写",
+      "assignee": "陈磊",
+      "priority": "medium",
+      "status": "todo",
+      "dueDate": "2026-05-20",
+      "tags": [
+        "测试"
+      ]
+    },
+    {
+      "id": "task-5",
+      "title": "项目里程碑汇报材料",
+      "assignee": "张明",
+      "priority": "low",
+      "status": "done",
+      "dueDate": "2026-04-30",
+      "tags": [
+        "管理",
+        "汇报"
+      ]
+    },
+    {
+      "id": "task-6",
+      "title": "修复登录页面兼容性问题",
+      "assignee": "李婷",
+      "priority": "high",
+      "status": "in_progress",
+      "dueDate": "2026-05-05",
+      "tags": [
+        "前端",
+        "Bug"
+      ]
+    }
+  ],
+  "syncItems": [
+    {
+      "id": "sync-1",
+      "title": "本周五产品评审会议通知",
+      "content": "本周五（5月8日）下午2点，在三楼会议室进行产品评审，请各模块负责人准备好演示材料。",
+      "author": "张明",
+      "target": "全员",
+      "status": "read",
+      "createdAt": "2026-05-03"
+    },
+    {
+      "id": "sync-2",
+      "title": "新版本发布计划更新",
+      "content": "V2.8版本发布时间调整为5月15日，请各开发同学注意调整任务排期。",
+      "author": "王强",
+      "target": "开发团队",
+      "status": "sent",
+      "createdAt": "2026-05-02"
+    },
+    {
+      "id": "sync-3",
+      "title": "设计资源库迁移通知",
+      "content": "设计稿已从Figma迁移至MasterGo，请各位设计师更新链接书签。",
+      "author": "赵雪",
+      "target": "设计团队",
+      "status": "pending",
+      "createdAt": "2026-05-03"
+    },
+    {
+      "id": "sync-4",
+      "title": "五一假期后工作安排",
+      "content": "假期后第一天（5月4日）上午10点全体站会，请准时参加。",
+      "author": "张明",
+      "target": "全员",
+      "status": "sent",
+      "createdAt": "2026-05-01"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann-1",
+      "title": "五一假期后工作安排通知",
+      "content": "各位同事：\n\n五一假期已结束，请大家于今日上午10点参加全体站会，汇报假期前未完成任务及本周工作计划。\n\n另外，请注意以下事项：\n1. 请及时更新个人任务状态\n2. 上周未完成的周报请于今日下班前补交\n3. Q2绩效考核表格已发至各位邮箱，请尽快填写",
+      "author": "张明",
+      "priority": "normal",
+      "pinned": false,
+      "status": "published",
+      "createdAt": "2026-05-04",
+      "updatedAt": "2026-05-04"
+    },
+    {
+      "id": "ann-2",
+      "title": "V2.8版本发布时间调整",
+      "content": "因技术评审需要额外时间，原定于5月10日的V2.8版本发布时间调整为5月15日。\n\n请各开发同学注意调整任务排期，测试同学同步更新测试计划。\n\n如有疑问请联系技术负责人王强。",
+      "author": "王强",
+      "priority": "important",
+      "pinned": false,
+      "status": "published",
+      "createdAt": "2026-05-02",
+      "updatedAt": "2026-05-03"
+    },
+    {
+      "id": "ann-3",
+      "title": "新员工入职提醒",
+      "content": "本周三（5月7日）将有2名新同事入职设计部，请相关同事提前准备好工位和设备，并安排入职引导人。\n\n新员工信息：\n- 刘芳（设计部-UI设计）\n- 周磊（设计部-UX研究）",
+      "author": "张明",
+      "priority": "normal",
+      "pinned": true,
+      "status": "published",
+      "createdAt": "2026-05-05",
+      "updatedAt": "2026-05-05"
+    },
+    {
+      "id": "ann-4",
+      "title": "系统维护通知",
+      "content": "定于本周六（5月10日）凌晨2:00-6:00进行系统维护升级，届时系统将暂停服务。\n\n请各位同事提前保存工作内容，避免数据丢失。\n\n如有紧急业务需求，请联系值班同事陈磊（电话：138-0005-0005）。",
+      "author": "王强",
+      "priority": "important",
+      "pinned": false,
+      "status": "draft",
+      "createdAt": "2026-05-05",
+      "updatedAt": "2026-05-05"
+    }
+  ],
+  "businessRules": [
+    {
+      "id": "rule-1",
+      "name": "请假审批规则",
+      "category": "人事管理",
+      "description": "根据请假天数自动路由到不同审批人",
+      "status": "active",
+      "updatedAt": "2026-03-01",
+      "creator": "admin"
+    },
+    {
+      "id": "rule-2",
+      "name": "请假审批规则",
+      "category": "人事管理",
+      "description": "根据请假天数自动路由到不同审批人",
+      "status": "active",
+      "updatedAt": "2026-05-04",
+      "creator": "admin"
+    },
+    {
+      "id": "rule-3",
+      "name": "费用报销规则",
+      "category": "财务管理",
+      "description": "不同金额区间的报销审批流程",
+      "status": "active",
+      "updatedAt": "2026-05-04",
+      "creator": "admin"
+    },
+    {
+      "id": "rule-4",
+      "name": "代码合并规则",
+      "category": "开发规范",
+      "description": "主分支合并权限控制",
+      "status": "active",
+      "updatedAt": "2026-04-01",
+      "creator": "admin"
+    },
+    {
+      "id": "rule-5",
+      "name": "客户等级规则",
+      "category": "客户管理",
+      "description": "根据年消费额自动划定客户等级",
+      "status": "inactive",
+      "updatedAt": "2026-01-20",
+      "creator": "admin"
+    }
+  ],
+  "checklistItems": [
+    {
+      "id": "chk-1",
+      "title": "每日站会",
+      "description": "参加每日15分钟站会，同步工作进展和阻碍",
+      "responsible": "全员",
+      "frequency": "daily",
+      "status": "completed",
+      "lastDone": "2026-05-03"
+    },
+    {
+      "id": "chk-2",
+      "title": "周报提交",
+      "description": "每周五下班前提交本周工作总结和下周计划",
+      "responsible": "全员",
+      "frequency": "weekly",
+      "status": "pending",
+      "lastDone": "2026-04-25"
+    },
+    {
+      "id": "chk-3",
+      "title": "代码备份检查",
+      "description": "检查代码仓库备份状态，确保数据安全",
+      "responsible": "王强",
+      "frequency": "weekly",
+      "status": "completed",
+      "lastDone": "2026-05-02"
+    },
+    {
+      "id": "chk-4",
+      "title": "上月绩效考核",
+      "description": "完成上月员工绩效考核评分",
+      "responsible": "张明",
+      "frequency": "monthly",
+      "status": "overdue",
+      "lastDone": "2026-03-31"
+    },
+    {
+      "id": "chk-5",
+      "title": "设计评审",
+      "description": "对新设计方案进行团队评审",
+      "responsible": "赵雪",
+      "frequency": "on_demand",
+      "status": "pending",
+      "lastDone": null
+    },
+    {
+      "id": "chk-6",
+      "title": "安全漏洞扫描",
+      "description": "对生产环境进行安全漏洞扫描并生成报告",
+      "responsible": "王强",
+      "frequency": "monthly",
+      "status": "completed",
+      "lastDone": "2026-04-28"
+    }
+  ],
+  "files": [
+    {
+      "id": "f1",
+      "name": "Q2产品规划.pptx",
+      "category": "产品文档",
+      "type": "pptx",
+      "size": "3.2MB",
+      "uploader": "张明",
+      "uploadDate": "2026-04-20",
+      "url": "https://example.com/files/q2-plan.pptx",
+      "description": "第二季度产品功能规划演示文稿"
+    },
+    {
+      "id": "f2",
+      "name": "接口文档 v3.2.docx",
+      "category": "技术文档",
+      "type": "docx",
+      "size": "1.8MB",
+      "uploader": "王强",
+      "uploadDate": "2026-04-25",
+      "url": "https://example.com/files/api-doc-v3.2.docx",
+      "description": "后端接口文档第三版，包含新增订单模块"
+    },
+    {
+      "id": "f3",
+      "name": "设计规范 v2.1.pdf",
+      "category": "设计资源",
+      "type": "pdf",
+      "size": "5.1MB",
+      "uploader": "赵雪",
+      "uploadDate": "2026-03-15",
+      "url": "https://example.com/files/design-spec-v2.1.pdf",
+      "description": "UI设计规范第二版，包含组件库说明"
+    },
+    {
+      "id": "f4",
+      "name": "测试用例模板.xlsx",
+      "category": "测试文档",
+      "type": "xlsx",
+      "size": "856KB",
+      "uploader": "陈磊",
+      "uploadDate": "2026-04-10",
+      "url": "https://example.com/files/test-case-template.xlsx",
+      "description": "Q2测试用例统一模板"
+    }
+  ],
+  "kbArticles": [
+    {
+      "id": "kb1",
+      "title": "新人开发环境配置指南",
+      "category": "技术文档",
+      "author": "王强",
+      "tags": [
+        "环境配置",
+        "新人入职"
+      ],
+      "content": "# 新人开发环境配置指南\n\n## 1. 工具安装\n\n- 安装 Node.js 20+\n- 安装 pnpm: `npm install -g pnpm`\n- 安装 VSCode 及推荐插件\n\n## 2. 代码仓库\n\n```bash\ngit clone git@github.com:team/frontend.git\ncd frontend\npnm install\n```\n\n## 3. 环境变量\n\n复制 `.env.example` 为 `.env.local`，填入开发环境配置。\n\n## 4. 启动项目\n\n```bash\npnpm dev\n```\n\n访问 http://localhost:5173 查看效果。",
+      "status": "published",
+      "createdAt": "2026-03-10",
+      "updatedAt": "2026-04-20",
+      "viewCount": 28
+    },
+    {
+      "id": "kb2",
+      "title": "API 错误码对照表",
+      "category": "技术文档",
+      "author": "王强",
+      "tags": [
+        "API",
+        "错误码",
+        "后端"
+      ],
+      "content": "# API 错误码对照表\n\n| 错误码 | 含义 | 处理方式 |\n|--------|------|----------|\n| 400 | 请求参数错误 | 检查请求参数格式 |\n| 401 | 未授权 | 检查登录态 |\n| 403 | 无权限 | 联系管理员 |\n| 500 | 服务器错误 | 联系后端同学排查 |\n\n## 常见错误处理\n\n所有 API 错误会在响应体中返回 `message` 字段，前端应展示该信息。",
+      "status": "published",
+      "createdAt": "2026-02-15",
+      "updatedAt": "2026-03-20",
+      "viewCount": 45
+    },
+    {
+      "id": "kb3",
+      "title": "团队沟通规范",
+      "category": "团队规范",
+      "author": "张明",
+      "tags": [
+        "沟通",
+        "规范"
+      ],
+      "content": "# 团队沟通规范\n\n## 会议规范\n\n- 会前必须发议程\n- 会中指定记录员\n- 会后 24h 内发出会议纪要\n\n## 文档规范\n\n- 技术决策记录（ADR）必须存档\n- 所有接口变更需更新文档\n- 重要决策在知识库留档\n\n## 即时沟通\n\n- 紧急事项打电话，非紧急用 IM\n- 重要结论要书面确认",
+      "status": "draft",
+      "createdAt": "2026-04-28",
+      "updatedAt": "2026-05-03",
+      "viewCount": 8
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "userId": "all",
+      "type": "announcement",
+      "title": "新员工入职提醒",
+      "message": "本周三（5月7日）将有2名新同事入职设计部，请相关同事提前准备好工位和设备",
+      "targetId": "ann-3",
+      "targetType": "announcement",
+      "read": false,
+      "createdAt": "2026-05-05"
+    },
+    {
+      "id": "notif-2",
+      "userId": "all",
+      "type": "system",
+      "title": "系统维护通知",
+      "message": "本周六（5月10日）凌晨2:00-6:00进行系统维护升级，届时系统将暂停服务",
+      "targetId": "ann-4",
+      "targetType": "announcement",
+      "read": false,
+      "createdAt": "2026-05-05"
+    },
+    {
+      "id": "notif-3",
+      "userId": "u2",
+      "type": "task",
+      "title": "任务待处理",
+      "message": "你有一个高优先级任务待处理：完成用户管理模块开发",
+      "targetId": "task-1",
+      "targetType": "task",
+      "read": false,
+      "createdAt": "2026-05-04"
+    },
+    {
+      "id": "notif-4",
+      "userId": "u2",
+      "type": "task",
+      "title": "任务待处理",
+      "message": "你有一个高优先级任务待处理：修复登录页面兼容性问题",
+      "targetId": "task-6",
+      "targetType": "task",
+      "read": false,
+      "createdAt": "2026-05-05"
+    },
+    {
+      "id": "notif-5",
+      "userId": "u3",
+      "type": "task",
+      "title": "任务审核中",
+      "message": "你的任务「设计系统V3改版」已进入审核阶段",
+      "targetId": "task-3",
+      "targetType": "task",
+      "read": true,
+      "createdAt": "2026-05-03"
+    },
+    {
+      "id": "notif-6",
+      "userId": "u4",
+      "type": "task",
+      "title": "新任务分配",
+      "message": "你有一个新任务：API接口压力测试",
+      "targetId": "task-2",
+      "targetType": "task",
+      "read": false,
+      "createdAt": "2026-05-02"
+    },
+    {
+      "id": "notif-7",
+      "userId": "all",
+      "type": "announcement",
+      "title": "V2.8版本发布时间调整",
+      "message": "V2.8版本发布时间调整为5月15日，请各开发同学注意调整任务排期",
+      "targetId": "ann-2",
+      "targetType": "announcement",
+      "read": true,
+      "createdAt": "2026-05-02"
+    },
+    {
+      "id": "notif-8",
+      "userId": "u5",
+      "type": "sop",
+      "title": "SOP需要审核",
+      "message": "「客户支持响应流程」SOP已更新，请审核",
+      "targetId": "sop-3",
+      "targetType": "sop",
+      "read": false,
+      "createdAt": "2026-05-04"
+    }
+  ],
+  "calendarEvents": [
+    {
+      "id": "cal-1",
+      "title": "产品评审会议",
+      "description": "V2.8版本产品功能评审，三楼会议室",
+      "type": "meeting",
+      "date": "2026-05-06",
+      "startTime": "14:00",
+      "endTime": "15:30",
+      "organizer": "张明",
+      "participants": [
+        "张明",
+        "李婷",
+        "王强",
+        "赵雪",
+        "陈磊"
+      ],
+      "color": "#6366f1",
+      "relatedTaskId": null,
+      "createdAt": "2026-05-03"
+    },
+    {
+      "id": "cal-2",
+      "title": "V2.8版本发布",
+      "description": "第二季度主要版本发布，全体开发参与",
+      "type": "milestone",
+      "date": "2026-05-15",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "organizer": "王强",
+      "participants": [
+        "王强",
+        "李婷"
+      ],
+      "color": "#f59e0b",
+      "relatedTaskId": "task-2",
+      "createdAt": "2026-05-02"
+    },
+    {
+      "id": "cal-3",
+      "title": "Q2测试用例截止",
+      "description": "所有Q2测试用例需在本日前完成编写",
+      "type": "deadline",
+      "date": "2026-05-20",
+      "startTime": "18:00",
+      "endTime": "18:00",
+      "organizer": "陈磊",
+      "participants": [
+        "陈磊"
+      ],
+      "color": "#ef4444",
+      "relatedTaskId": "task-4",
+      "createdAt": "2026-05-01"
+    },
+    {
+      "id": "cal-4",
+      "title": "赵雪年假",
+      "description": "赵雪5月9日至5月11日年假，共3天",
+      "type": "leave",
+      "date": "2026-05-09",
+      "startTime": "00:00",
+      "endTime": "23:59",
+      "organizer": "赵雪",
+      "participants": [
+        "赵雪"
+      ],
+      "color": "#8b5cf6",
+      "relatedTaskId": null,
+      "createdAt": "2026-05-02"
+    },
+    {
+      "id": "cal-5",
+      "title": "周报提交",
+      "description": "每周五下班前提交本周工作总结",
+      "type": "recurring",
+      "date": "2026-05-09",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "organizer": "张明",
+      "participants": [
+        "张明",
+        "李婷",
+        "王强",
+        "赵雪",
+        "陈磊"
+      ],
+      "color": "#10b981",
+      "relatedTaskId": null,
+      "createdAt": "2026-05-01"
+    },
+    {
+      "id": "cal-6",
+      "title": "设计评审 - V3改版",
+      "description": "设计系统V3改版方案评审会议",
+      "type": "meeting",
+      "date": "2026-05-07",
+      "startTime": "10:00",
+      "endTime": "11:30",
+      "organizer": "赵雪",
+      "participants": [
+        "赵雪",
+        "张明",
+        "李婷"
+      ],
+      "color": "#6366f1",
+      "relatedTaskId": "task-3",
+      "createdAt": "2026-05-04"
+    },
+    {
+      "id": "cal-7",
+      "title": "系统维护窗口",
+      "description": "系统升级维护，凌晨2:00-6:00暂停服务",
+      "type": "deadline",
+      "date": "2026-05-10",
+      "startTime": "02:00",
+      "endTime": "06:00",
+      "organizer": "王强",
+      "participants": [
+        "王强",
+        "李婷"
+      ],
+      "color": "#ef4444",
+      "relatedTaskId": null,
+      "createdAt": "2026-05-05"
+    },
+    {
+      "id": "cal-8",
+      "title": "新人入职引导",
+      "description": "新同事刘芳、周磊入职第一天引导",
+      "type": "milestone",
+      "date": "2026-05-07",
+      "startTime": "09:00",
+      "endTime": "12:00",
+      "organizer": "张明",
+      "participants": [
+        "张明",
+        "赵雪"
+      ],
+      "color": "#f59e0b",
+      "relatedTaskId": null,
+      "createdAt": "2026-05-05"
+    },
+    {
+      "id": "cal-9",
+      "title": "代码审查 - 用户模块",
+      "description": "李婷的用户管理模块代码审查",
+      "type": "meeting",
+      "date": "2026-05-08",
+      "startTime": "15:00",
+      "endTime": "16:00",
+      "organizer": "王强",
+      "participants": [
+        "王强",
+        "李婷"
+      ],
+      "color": "#6366f1",
+      "relatedTaskId": "task-1",
+      "createdAt": "2026-05-04"
+    },
+    {
+      "id": "cal-10",
+      "title": "每日站会",
+      "description": "每日15分钟站会，同步工作进展",
+      "type": "recurring",
+      "date": "2026-05-05",
+      "startTime": "09:30",
+      "endTime": "09:45",
+      "organizer": "张明",
+      "participants": [
+        "张明",
+        "李婷",
+        "王强",
+        "赵雪",
+        "陈磊"
+      ],
+      "color": "#10b981",
+      "relatedTaskId": null,
+      "createdAt": "2026-05-01"
+    },
+    {
+      "id": "cal-11",
+      "title": "陈磊病假",
+      "description": "陈磊5月12日病假一天",
+      "type": "leave",
+      "date": "2026-05-12",
+      "startTime": "00:00",
+      "endTime": "23:59",
+      "organizer": "陈磊",
+      "participants": [
+        "陈磊"
+      ],
+      "color": "#8b5cf6",
+      "relatedTaskId": null,
+      "createdAt": "2026-05-06"
+    },
+    {
+      "id": "cal-12",
+      "title": "API压力测试启动",
+      "description": "王强启动API接口压力测试",
+      "type": "deadline",
+      "date": "2026-05-13",
+      "startTime": "10:00",
+      "endTime": "17:00",
+      "organizer": "王强",
+      "participants": [
+        "王强"
+      ],
+      "color": "#ef4444",
+      "relatedTaskId": "task-2",
+      "createdAt": "2026-05-06"
+    },
+    {
+      "title": "修复登录页面兼容性问题",
+      "description": "关联任务: 修复登录页面兼容性问题",
+      "type": "meeting",
+      "date": "2026-05-05",
+      "startTime": "09:00",
+      "endTime": "10:00",
+      "participants": [
+        "李婷"
+      ],
+      "color": "#6366f1",
+      "relatedTaskId": "task-6",
+      "organizer": "张明",
+      "createdAt": "2026-05-05",
+      "id": "EqKwtV_"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "name": "V2.8版本开发",
+      "description": "第二季度主要版本开发，包含用户管理模块、API压力测试、设计系统V3改版等核心功能",
+      "status": "in_progress",
+      "priority": "high",
+      "startDate": "2026-04-01",
+      "endDate": "2026-05-15",
+      "owner": "张明",
+      "members": [
+        "张明",
+        "李婷",
+        "王强",
+        "赵雪"
+      ],
+      "progress": 68,
+      "relatedTasks": [
+        "task-1",
+        "task-2",
+        "task-3"
+      ],
+      "createdAt": "2026-04-01",
+      "updatedAt": "2026-05-05"
+    },
+    {
+      "id": "proj-2",
+      "name": "Q2测试用例编写",
+      "description": "第二季度全功能测试用例编写与评审",
+      "status": "in_progress",
+      "priority": "medium",
+      "startDate": "2026-05-01",
+      "endDate": "2026-05-20",
+      "owner": "陈磊",
+      "members": [
+        "陈磊"
+      ],
+      "progress": 35,
+      "relatedTasks": [
+        "task-4"
+      ],
+      "createdAt": "2026-05-01",
+      "updatedAt": "2026-05-05"
+    },
+    {
+      "id": "proj-3",
+      "name": "设计系统V3改版",
+      "description": "全新设计系统第三版，包含组件库更新和设计规范文档",
+      "status": "review",
+      "priority": "high",
+      "startDate": "2026-04-15",
+      "endDate": "2026-05-08",
+      "owner": "赵雪",
+      "members": [
+        "赵雪",
+        "张明"
+      ],
+      "progress": 85,
+      "relatedTasks": [
+        "task-3"
+      ],
+      "createdAt": "2026-04-15",
+      "updatedAt": "2026-05-03"
+    },
+    {
+      "id": "proj-4",
+      "name": "系统维护升级",
+      "description": "5月10日系统维护窗口，包含数据库优化和安全补丁",
+      "status": "planning",
+      "priority": "medium",
+      "startDate": "2026-05-10",
+      "endDate": "2026-05-10",
+      "owner": "王强",
+      "members": [
+        "王强",
+        "李婷"
+      ],
+      "progress": 10,
+      "relatedTasks": [],
+      "createdAt": "2026-05-05",
+      "updatedAt": "2026-05-05"
+    },
+    {
+      "id": "proj-5",
+      "name": "新人入职引导",
+      "description": "5月7日新同事刘芳、周磊入职，包含培训计划和导师分配",
+      "status": "completed",
+      "priority": "low",
+      "startDate": "2026-05-07",
+      "endDate": "2026-05-07",
+      "owner": "张明",
+      "members": [
+        "张明",
+        "赵雪"
+      ],
+      "progress": 100,
+      "relatedTasks": [],
+      "createdAt": "2026-05-05",
+      "updatedAt": "2026-05-05"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build output
+app/dist/
+
+# Environment files
+*.local
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Deploy temporary files
+deploy/*.exp
+deploy/dist.tar.gz
+
+# Keep useful deploy files
+!deploy/setup.sh
+!deploy/nginx-site.conf
+
+# Extra files
+DEPLOY.md
+start.sh
+app/index.html''

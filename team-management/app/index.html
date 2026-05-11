@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>团队管理系统</title>
+    <script>
+      // 全局错误捕获 - 在 React 加载之前
+      window.addEventListener('error', function(e) {
+        console.error('Global error:', e.error || e.message);
+        var root = document.getElementById('root');
+        if (root && !root.innerHTML.trim()) {
+          root.innerHTML = '<div style="min-height:100vh;display:flex;align-items:center;justify-content:center;background:#0f172a;color:#f87171;font-family:monospace;padding:20px;"><div style="max-width:600px;width:100%"><h2 style="color:#fbbf24;margin-bottom:12px;">🚨 加载错误</h2><pre style="background:#1e293b;padding:16px;border-radius:8px;overflow:auto;font-size:13px;line-height:1.5;">' + (e.error ? e.error.stack || e.error.toString() : e.message) + '</pre><button onclick="location.reload()" style="margin-top:16px;padding:8px 20px;background:#6366f1;color:white;border:none;border-radius:8px;cursor:pointer;">刷新页面</button></div></div>';
+        }
+      });
+      window.addEventListener('unhandledrejection', function(e) {
+        console.error('Unhandled promise rejection:', e.reason);
+        var root = document.getElementById('root');
+        if (root && !root.innerHTML.trim()) {
+          root.innerHTML = '<div style="min-height:100vh;display:flex;align-items:center;justify-content:center;background:#0f172a;color:#f87171;font-family:monospace;padding:20px;"><div style="max-width:600px;width:100%"><h2 style="color:#fbbf24;margin-bottom:12px;">🚨 Promise 错误</h2><pre style="background:#1e293b;padding:16px;border-radius:8px;overflow:auto;font-size:13px;line-height:1.5;">' + (e.reason ? (e.reason.stack || e.reason.toString()) : 'Unknown error') + '</pre><button onclick="location.reload()" style="margin-top:16px;padding:8px 20px;background:#6366f1;color:white;border:none;border-radius:8px;cursor:pointer;">刷新页面</button></div></div>';
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root">
+      <div style="min-height:100vh;display:flex;align-items:center;justify-content:center;background:#0f172a;color:#94a3b8;font-family:monospace;">
+        正在加载...
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
